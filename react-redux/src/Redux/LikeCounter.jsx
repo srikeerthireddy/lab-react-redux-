@@ -22,8 +22,10 @@ export default function LikeCounter() {
   return (
     <div>
      <h1>{count}</h1>
+     <div className='main-container'>
      <button onClick={handlelike}>Like</button>
      <button onClick={handleUnlike}>UnLike</button>
+     </div>
     </div>
   )
 }
